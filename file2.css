@@ -1,0 +1,18 @@
+#D1{
+    background-color: blueviolet;
+    width: 100px;
+    height: 100px;
+    color: brown;
+}
+#D2 {
+    background-image: url("5.jpg") ;
+    height: 300px;
+    width: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#D3 {
+    height: 100px;
+    width: 100px;
+    border: 2px solid red;
+}
