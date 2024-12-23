@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Example</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial,sans-serif;
+        }
+
+        .header{
+            background-color:#333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+            font: size 24px;
+        }
+
+        .sticky{
+            position: sticky;
+            top: 0;
+            background-color:orange;
+            padding: 10px;
+            font-size: small;
+            z-index: 1000;
+        }
+        .content{
+            padding: 10px;
+        }
+
+        .section{
+            margin-bottom: 100px;
+        }
+
+        .p{
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="Header">
+        Monday
+    </div>
+
+    <div class="content">
+        <div class="sticky">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus pariatur fugiat reprehenderit vero sit eaque dolor consequuntur in dicta quisquam!
+        </div>
+
+        <div class="section">
+            <h2>Section 1</h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro, cum?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis excepturi consequatur odit deleniti explicabo? Blanditiis.</p>
+        </div>
+
+        <div class="section">
+            <h2>Section 2</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sint, consequuntur.</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem ab deserunt cum tempora odio harum.</p>
+        </div>
+
+        <div class="section">
+            <h2>Section 3</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quam porro incidunt mollitia explicabo accusamus eius, minus ut facere laudantium rem voluptate pariatur, cumque animi!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium accusamus iste ea deleniti, delectus doloremque voluptatibus eius consequuntur est necessitatibus eligendi facilis perspiciatis ullam, laudantium deserunt soluta assumenda. Iste rerum dolores aut odit.</p>
+        </div>
+    </div>
+</body>
+</html>
