@@ -1,0 +1,53 @@
+
+.sub-header{
+background-color: palevioletred;
+color: white;
+list-style: none;
+display: flex;
+justify-content: space-around;
+line-height: 50px;
+font-size: 18px;
+}
+  
+li{
+padding: 0 22px;
+cursor: pointer;
+}
+  
+li:hover{
+background-color: yellow;
+color: black;
+}
+  
+*{
+margin: 0;
+}
+
+  
+.content{
+position: absolute;
+background-color: lightseagreen;
+color: black;
+transition: all 0.55s;
+opacity: 0;
+          
+         
+  
+}
+  
+.li:hover{
+background-color: greenyellow;
+color: black;
+}
+  
+.hover{
+    position: relative;
+  
+  
+
+}
+  
+.hover:hover .content{
+opacity: 1;
+}
+
