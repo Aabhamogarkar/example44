@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    height: 100vh;
+    
+
+}
+.box1{
+    width: 100px;
+    height: 100px;
+    background-color: rebeccapurple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box-A{
+    width: 50%;
+    height: 50%;
+    border: 1px solid yellow;
+    border-radius: 50%;
+    animation: circle 5s infinite;
+}
+.box2{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box-B{
+    width: 50%;
+    height: 50%;
+    border: 1px solid yellow;
+    animation: square 5s infinite;
+}
+
+@keyframes circle{
+0% {
+    transform: translate(0px);
+}
+100%{
+    transform:translate(420px);
+}
+}
+@keyframes square{
+    0% {transform: translate(0px);
+}
+100%{
+    transform:translate(-420px);
+}}

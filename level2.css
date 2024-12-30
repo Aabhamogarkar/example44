@@ -1,0 +1,19 @@
+div{
+    background-color: red;
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+} 
+.class1{
+    background-color:red;
+}
+.class2{
+    background-color: green;
+}
+.class3{
+    background-color: blue;
+}
+.class4{
+    background-color: yellow;
+}
+

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.box{
+    width: 150px;
+    text-align: center;
+    height: 150px;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 25px auto;
+    border-radius: 20%;
+    background: linear-gradient(to bottom,#ff7eff,#feb31f);
+}
+h1{
+    text-align: center;
+    font-size:30px;
+}
+p{
+    text-align: center;
+    font-size: 25px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+.header{
+    text-align: center;
+    font-size:3opx;
+}
+.para{
+    text-align: center;
+    font-size: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.header1{
+    text-align: center;
+    font-size: 25px;
+}
+.para1{
+    text-align: center;
+    font-size: 35px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
