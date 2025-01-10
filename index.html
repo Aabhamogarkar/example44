@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body id="demo">
+    <p id="text">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.
+    </p>
+    <button onclick="show()" id="btn">Dark</button>
+
+    <script>
+        function show() {
+         document.getElementById("demo").style.backgroundColor="black";
+         document.getElementById("text").style.color="white";
+         document.getElementById("text").style.fontSize="30px";
+         document.getElementById("text").style.fontFamily="Arial";
+         document.getElementById("text").style.fontWeight="bold";    
+         document.getElementById("btn").innerHTML="Light"
+    }
+    </script>
+  </body>
+</html>
